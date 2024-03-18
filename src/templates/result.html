@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis result</title>
+</head>
+<body>
+    <h1>Review</h1>
+    <p>{{ new_review }}</p>
+
+    <h3>Predicted Sentiment for new review is "{{prediction}}"</h3>
+    <a href="{{ url_for('index') }}" class="button">Return to Home</a>
+</body>
+</html>

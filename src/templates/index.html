@@ -40,33 +40,12 @@
 </head>
 <body>
     <h1>Product Review and Sentiment Analysis</h1>
-    <form id="review-form">
+    <form id="review-form" action="/prediction" method="post">
         <div class="form-group">
             <label for="review-text">Enter your review:</label>
             <textarea id="review-text" name="review-text" placeholder="Write your review here..."></textarea>
         </div>
-        <button type="button" onclick="submitReview()">Submit Review</button>
+        <button type="submit">Submit Review</button>
     </form>
-    <p id="result"></p>
-    <script>
-        function submitReview() {
-            const reviewText = document.getElementById('review-text').value;
-
-            // Send the review text for sentiment analysis (replace with your actual logic)
-            fetch('/analyze-sentiment', {
-                method: 'POST',
-                body: JSON.stringify({ reviewText: reviewText })
-            })
-            .then(response => response.json())
-            .then(data => {
-                const sentiment = data.sentiment;
-                document.getElementById('result').innerHTML = `Your review sentiment is: ${sentiment}`;
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                document.getElementById('result').innerHTML = 'Error: Sentiment analysis failed.';
-            });
-        }
-    </script>
 </body>
 </html>
