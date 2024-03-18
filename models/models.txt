@@ -1,1 +1,5 @@
-# It will consist of model.pkl file.
+# It consists of various models.
+# model.pkl - it multinomial naive bayes.
+# vectorizer.pkl - it contains count vectorizer(bag of word).
+# tf_vectorizer.pkl - contains tf_idf vectorizer.
+# rf_model.pkl - contains random forest model.
