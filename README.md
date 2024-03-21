@@ -22,4 +22,4 @@ The project follows a structured layout to organize its components and files. Be
       - `index.html`
       - `result.html`
     - `app.py`
-- `requirements.txt`
+  - `requirements.txt`
