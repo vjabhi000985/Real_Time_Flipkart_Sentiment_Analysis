@@ -31,3 +31,9 @@ The project follows a structured layout to organize its components and files. Be
 * `Run the App`: Navigate to the project directory in your terminal and execute: ```python src/app.py```
 
 ### Potential Enhancements:
+* `Model Selection`: Explore the different models (`r_model.pkl`, `model.pkl`, etc.) and vectorizers (`tf_vectorizer.pkl`, `vectorizer.pkl`, etc.) to understand their performance and choose the best option based on the data and task.
+* `Custom Model Training`: Consider training a custom model on a larger dataset specific to your domain for improved accuracy.
+* `Advanced Techniques`: Integrate advanced techniques like word2vec or BERT for richer text representation and potentially better sentiment analysis.
+* `User Interface`: Develop a more comprehensive user interface with features like sentiment visualization, review history, and the ability to analyze reviews across different product categories.
+
+### AWS Deployment Link: `http://65.0.81.78:5000`
