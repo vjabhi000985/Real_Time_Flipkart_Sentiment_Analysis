@@ -13,6 +13,7 @@
             border-radius: 3px;
             cursor: pointer;
             text-decoration: none;
+            transition: 0.76s;
         }
 
         .button:hover{
@@ -24,7 +25,12 @@
     <h1>Review</h1>
     <p>{{ new_review }}</p>
 
-    <h3>Predicted Sentiment for new review is "{{prediction}}"</h3>
+    {% if prediction == 'positive' %}
+        <h3>Predicted Sentiment for new review is <em>{{prediction}}</em>😀</h3>
+    {% else %}
+        <h3>Predicted Sentiment for new review is <em>{{prediction}}</em>😡</h3>
+    {% endif %}
+    
     <a href="{{ url_for('index') }}" class="button">Return to Home</a>
 </body>
 </html>
