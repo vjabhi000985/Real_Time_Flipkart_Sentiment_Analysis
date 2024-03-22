@@ -36,4 +36,4 @@ The project follows a structured layout to organize its components and files. Be
 * `Advanced Techniques`: Integrate advanced techniques like word2vec or BERT for richer text representation and potentially better sentiment analysis.
 * `User Interface`: Develop a more comprehensive user interface with features like sentiment visualization, review history, and the ability to analyze reviews across different product categories.
 
-### AWS Deployment Link: `http://65.0.81.78:5000`
+### AWS Deployment Link: `http://3.108.41.228:5000/`
