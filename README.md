@@ -15,8 +15,8 @@ The project follows a structured layout to organize its components and files. Be
   - *`notebooks/`*: This folder contains Jupyter notebooks for data analysis and model development.
     - `Flipkart_Sentiment_Analysis_v3.ipynb`: (used notebook)
   - *`models/`*: This folder stores the trained sentiment analysis models and vectorizers.
-    - `model_v2.pkl`: (used model)
-    - `vectorizer.pkl`: (used vectorizer)
+    - `model_v3.pkl`: (used model)
+    - `vectorizer_v3.pkl`: (used vectorizer)
   - *`src/`*: This folder contains the Flask application code.
     - *`templates/`*
       - `index.html`
