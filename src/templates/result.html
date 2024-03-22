@@ -27,6 +27,8 @@
 
     {% if prediction == 'positive' %}
         <h3>Predicted Sentiment for new review is <em>{{prediction}}</em>😀</h3>
+    {% elif prediction == 'neutral' %}
+        <h3>Predicted Sentiment for new review is <em>{{prediction}}</em>😪</h3>
     {% else %}
         <h3>Predicted Sentiment for new review is <em>{{prediction}}</em>😡</h3>
     {% endif %}
