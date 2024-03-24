@@ -37,3 +37,4 @@ The project follows a structured layout to organize its components and files. Be
 * `User Interface`: Develop a more comprehensive user interface with features like sentiment visualization, review history, and the ability to analyze reviews across different product categories.
 
 ### AWS Deployment Link: `http://3.108.41.228:5000/`
+- AWS Instance closed, therefore the above url will not work.
